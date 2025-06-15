@@ -36,4 +36,4 @@ repos:
     rev: "55a521bf81c24480094950caa3566548fa63875e"
     hooks:
       - id: addlicense
-        args: ["-s=only", -l, "GNU AFFERO GENERAL PUBLIC LICENSE", -c, "Colton Loftus"]
+        args: ["-s=only", -l, "AGPL-3.0-only", -c, "Colton Loftus"]
