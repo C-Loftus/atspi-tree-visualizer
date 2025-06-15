@@ -1,0 +1,15 @@
+[package]
+name = "reader"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+atspi = "0.27.0"
+atspi-proxies = "0.11.0"
+eframe = "0.31.1"
+egui = "0.31.1"
+futures = "0.3.31"
+rand = "0.9.1"
+tokio = { version = "1.45.1", features = ["macros", "rt-multi-thread", "time"] }
+tokio-stream = "0.1.17"
+zbus = "5.7.1"
